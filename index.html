@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nuzlocke Tracker</title>
+    <link href='style.css' rel='stylesheet'>
+    <link rel="icon" href="images/icons/charizard_yellow.png">
+</head>
+
+<body>
+    <h1>Nuzlocke Tracker</h1>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Encounter</th>
+                    <th>Nickname</th>
+                    <th>Level</th>
+                    <th>Status</th>
+                </tr>
+            </thead> 
+            <tbody>
+                <tr>
+                    <td>Starter</td>
+                    <td>
+                        <select name="Encounter">
+                            <option value="bulbasaur">Bulbasaur</option>
+                            <option value="charmander">Charmander</option>
+                            <option value="squirtle">Squirtle</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input name="Nickname" type="text" maxlength="15" placeholder="Nickname">
+                    </td>
+                    <td>
+                        <input name="Level" type="number" min="1" max="100" placeholder="Level">
+                    </td>
+                    <td>
+                        <select name="Status" placeholder="Status">
+                          <option value="captured">Captured</option>
+                          <option value="received">Received</option>
+                          <option value="traded">Traded</option>
+                          <option value="stored">Stored</option>
+                          <option value="missed">Missed</option>
+                          <option value="deceased">Deceased</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

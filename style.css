@@ -1,0 +1,25 @@
+﻿@font-face {
+	font-family: PokemonGB;
+	src: url(fonts/PokemonGb-RAeo.ttf);
+}
+
+body {
+	background: #2e3032;
+	font-family: PokemonGB;
+	text-align: center;
+	color: white;
+	padding: 25px;
+}
+
+h1 {
+	color: gold;
+	text-align: center;
+}
+
+table {
+	margin: 0px auto;
+}
+
+thead {
+	border-spacing: 200px;
+}
